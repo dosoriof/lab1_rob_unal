@@ -19,10 +19,10 @@ roscore
 rosrun turtlesim turtlesim_node
 ```
 3. Crear el script en matlab:
-[Código ejemplo Matlab](https://postimg.cc/8Fw1bJg0)
+[![Código ejemplo Matlab](https://i.postimg.cc/LXFn2LC2/Captura-de-pantalla-de-2022-04-07-16-26-20.png)](https://postimg.cc/8Fw1bJg0)
 
 Lo anterior hace que la simulación de la toruga mueva automáticamente su posición como se ve a continuación:
-[Movimiento de ejemplo de la tortuga](https://postimg.cc/w1ffcgbk)
+[![Mov tortuga ejemplo](https://i.postimg.cc/7LDF4L3j/Captura-de-pantalla-de-2022-04-07-16-31-56.png)](https://postimg.cc/w1ffcgbk)
 
 Ahora vamos a hacer los códigos propuestos:
 
@@ -30,7 +30,7 @@ Ahora vamos a hacer los códigos propuestos:
 
 Para hacer esto buscamos información de la función **rossubscriber** que es la que nos permite hacer esto, para esto buscamos la documentación del paquete de ROS para matlab
 
-[Documentación ROS Matlab](https://postimg.cc/ppZRv5pX)
+[![Documentación ROS Matlab](https://i.postimg.cc/Sx0sWW48/Captura-de-pantalla-de-2022-04-07-16-43-40.png)](https://postimg.cc/ppZRv5pX)
 
 
 
