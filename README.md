@@ -84,6 +84,14 @@ end
 ```
 [![Captura-de-pantalla-de-2022-04-07-18-07-38.png](https://i.postimg.cc/44HMM0qD/Captura-de-pantalla-de-2022-04-07-18-07-38.png)](https://postimg.cc/6TwY4M9c)
 
+### Finalizar el nodo maestro en Matlab
+Según la documentación del toolbox de ROS, para hacer la finalización del nodo hay que correr el siguiente código:
+```
+rosshutdown
+```
+
+[![Captura-de-pantalla-de-2022-04-07-18-16-12.png](https://i.postimg.cc/c4szHJrS/Captura-de-pantalla-de-2022-04-07-18-16-12.png)](https://postimg.cc/8s04XNRK)
+
 ## ROS
 Hice el paquete
 ```
