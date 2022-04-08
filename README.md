@@ -3,7 +3,7 @@
 Entrega Laboratorio 1 Robótica 
 
 Integrantes:
-* Ricardo Galindo
+* Rafael Ricardo Galindo León
 * Diego Fabian Osorio Fonseca
 
 
