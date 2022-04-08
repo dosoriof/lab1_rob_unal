@@ -234,7 +234,7 @@ rosrun turtlesim turtlesim_node
 ```
 Finalmente lanzamos nuestro script ***myTeleopKey*** y ya podemos empezar a mover la tortuga como se indicó anteriormente:
 ```
-rosrun hello_turtle myTeleopKey.py.
+rosrun hello_turtle myTeleopKey.py
 ```
 
 ## Conclusiones
