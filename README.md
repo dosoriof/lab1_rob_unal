@@ -94,31 +94,13 @@ rosshutdown
 
 ## ROS - Python
 En la segunda parte de este laboratorio vamos a crear un script en python que permita realizar las siguientes funciones:
+* Se debe mover hacia adelante y hacia atrás con las teclas W y S
+* Debe girar en sentido horario y antihorario con las teclas D y A.
+* Debe retornar a su posición y orientación centrales con la tecla R
+* Debe dar un giro de 180° con la tecla ESPACIO
+* Adicionalmente se agrega una función de limpiar el espacio de la tortuga con la letra C
 
-
-### Correr el script
-Para correr el script primero necesitamos iniciar el nodo maestro. Corremos en una terminal:
-```
-roscore
-```
-Ahora tenemos que cargar el paquete, para eso ejecutamos lo siquiente en otra terminal:
-```
-cd ~/catkin_ws
-catkin build hello_turtle
-```
-Luego, sourceamos:
-```
-source devel/setup.bash
-```
-Con esto hecho, vamos a correr el nodo de la simulación de la tortuga:
-```
-rosrun turtlesim turtlesim_node 
-```
-Finalmente lanzamos nuestro script ***myTeleopKey*** y ya podemos empezar a mover la tortuga como se indicó anteriormente:
-```
-rosrun hello turtle myTeleopKey.py.
-```
-el script myTeleopKey.py esta compuesto por las siguiente funciones
+El script myTeleopKey.py esta compuesto por las siguiente funciones
 #### Importaciones
 ``` python
 ## Se importan las librería requeridas para la ejecución
@@ -225,6 +207,29 @@ if __name__ == '__main__':
         if key == b'c': # Limpia el trazo existente
             servClear()
 ```
+### Correr el script
+Para correr el script primero necesitamos iniciar el nodo maestro. Corremos en una terminal:
+```
+roscore
+```
+Ahora tenemos que cargar el paquete, para eso ejecutamos lo siquiente en otra terminal:
+```
+cd ~/catkin_ws
+catkin build hello_turtle
+```
+Luego, sourceamos:
+```
+source devel/setup.bash
+```
+Con esto hecho, vamos a correr el nodo de la simulación de la tortuga:
+```
+rosrun turtlesim turtlesim_node 
+```
+Finalmente lanzamos nuestro script ***myTeleopKey*** y ya podemos empezar a mover la tortuga como se indicó anteriormente:
+```
+rosrun hello turtle myTeleopKey.py.
+```
+
 ## Conclusiones
 
 
