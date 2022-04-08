@@ -147,11 +147,14 @@ def servClear():
 
 #### Funcion para teleportar al origen
 ``` python
+# Funcion para teloportar de forma absoluta.
 def servTeleportAbsolute(x, y, ang):
-    rospy.wait_for_service('/turtle1/teleport_absolute')
+    rospy.wait_for_service('/turtle1/teleport_absolute') # Espera por el servicio
     try:
+        ## Define el publicador con topic y Message type, TeleportAbsolute
         serv = rospy.ServiceProxy('/turtle1/teleport_absolute', TeleportAbsolute)
-        teleport = serv(x, y, ang)
+        # Define las coordenadas absolutas y el ángulo para la teleportación
+        teleport = serv(x, y, ang) 
     except rospy.ServiceException as e:
         print(str(e))
 ```
@@ -160,9 +163,12 @@ def servTeleportAbsolute(x, y, ang):
 ``` python
 ## Función para teleportar relativamente se usa para rotar 180 deg
 def servTeleportRelative(linear, angular):
-    rospy.wait_for_service('/turtle1/teleport_relative')
+    rospy.wait_for_service('/turtle1/teleport_relative') # Espera por el servicio
     try:
+        ## Define el publicador con topic y Message type, TeleportRelative
         serv = rospy.ServiceProxy('/turtle1/teleport_relative', TeleportRelative)
+        # Define la distancia relativa y el ángulo para la teleportación
+        # De forma especifica solo se usa para girar 180 deg.
         teleport = serv(linear, angular)
     except rospy.ServiceException as e:
         print(str(e))
