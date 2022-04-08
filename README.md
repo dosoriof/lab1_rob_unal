@@ -237,6 +237,7 @@ Finalmente lanzamos nuestro script ***myTeleopKey*** y ya podemos empezar a move
 rosrun hello turtle myTeleopKey.py.
 ```
 
-## Conclusiones
+## Conclusión
+Matlab y Python son herramientas muy poderosas para el trabajo con ROS, estas permiten desde diferentes ambientes crear, usar y modificar elementos tales como nodos, tópicos y servicios. En estas herramientas se pueden ejecutar varias ordenes en un solo script, que hacen la interacción entre el usuario y el sistema mucho más fácil.
 
 
