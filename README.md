@@ -238,6 +238,7 @@ rosrun hello turtle myTeleopKey.py.
 ```
 
 ## Conclusión
-Matlab y Python son herramientas muy poderosas para el trabajo con ROS, estas permiten desde diferentes ambientes crear, usar y modificar elementos tales como nodos, tópicos y servicios. En estas herramientas se pueden ejecutar varias ordenes en un solo script, que hacen la interacción entre el usuario y el sistema mucho más fácil.
+* Matlab y Python son herramientas muy poderosas para el trabajo con ROS, estas permiten desde diferentes ambientes crear, usar y modificar elementos tales como nodos, tópicos y servicios. En estas herramientas se pueden ejecutar varias ordenes en un solo script, que hacen la interacción entre el usuario y el sistema mucho más fácil.
+* Al aumentar la complejidad de los scripts y códigos en Matlab se pueden obtener sistemas muy automáticos, que permitan interactuar con los componentes de ROS de forma más natural y eficiente, adicionalmente nos permiten usar herramientas que estén desarrolladas en otros softwares o lenguajes; aumentando así las funcionalidades básicas de ROS.
 
 
