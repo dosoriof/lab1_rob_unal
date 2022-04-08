@@ -92,15 +92,32 @@ rosshutdown
 
 [![Captura-de-pantalla-de-2022-04-07-18-16-12.png](https://i.postimg.cc/c4szHJrS/Captura-de-pantalla-de-2022-04-07-18-16-12.png)](https://postimg.cc/8s04XNRK)
 
-## ROS
-Hice el paquete
+## ROS - Python
+En la segunda parte de este laboratorio vamos a crear un script en python que permita realizar las siguientes funciones:
+
+
+### Correr el script
+Para correr el script primero necesitamos iniciar el nodo maestro. Corremos en una terminal:
 ```
-codigo pro
+roscore
 ```
-
-[![instalacion-matlab.png](https://i.postimg.cc/9FD4Gf9k/instalacion-matlab.png)](https://postimg.cc/tYHCbp2d)
-
-
+Ahora tenemos que cargar el paquete, para eso ejecutamos lo siquiente en otra terminal:
+```
+cd ~/catkin_ws
+catkin build hello_turtle
+```
+Luego, sourceamos:
+```
+source devel/setup.bash
+```
+Con esto hecho, vamos a correr el nodo de la simulación de la tortuga:
+```
+rosrun turtlesim turtlesim_node 
+```
+Finalmente lanzamos nuestro script ***myTeleopKey*** y ya podemos empezar a mover la tortuga como se indicó anteriormente:
+```
+rosrun hello turtle myTeleopKey.py.
+```
 
 ## Conclusiones
 
