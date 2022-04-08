@@ -100,7 +100,8 @@ En la segunda parte de este laboratorio vamos a crear un script en python que pe
 * Debe dar un giro de 180° con la tecla ESPACIO
 * Adicionalmente se agrega una función de limpiar el espacio de la tortuga con la letra C
 
-El script myTeleopKey.py esta compuesto por las siguiente funciones
+Para hacer el desarrollo de las anteriores funcionalidades se creó el script ***myTeleopKey.py*** en python, el cual se debe correr como se indicará más adelante.
+El script ***myTeleopKey.py*** esta compuesto por las siguiente partes. Cada una de las partes está explicada con el código comentado
 #### Importaciones
 ``` python
 ## Se importan las librería requeridas para la ejecución
