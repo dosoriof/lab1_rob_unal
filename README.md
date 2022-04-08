@@ -139,7 +139,7 @@ def pubVel(vel_x, ang_z, t):
 def servClear():
     rospy.wait_for_service('/clear') # Espera al servicio clear
     try:
-        serv = rospy.ServiceProxy('/clear', Empty)
+        serv = rospy.ServiceProxy('/clear', Empty) # Llamar el servicio
         clear = serv()
     except rospy.ServiceException as e:
         print(str(e))
